@@ -554,7 +554,7 @@ const char *mbus_data_fixed_function(int status);
 long        mbus_data_record_storage_number(mbus_data_record *record);
 long        mbus_data_record_tariff(mbus_data_record *record);
 int         mbus_data_record_device(mbus_data_record *record);
-
+const char *mbus_data_record_decode(mbus_data_record *record);
 //
 // M-Bus frame data struct access/write functions
 //
