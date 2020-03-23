@@ -15,6 +15,6 @@ doc_DATA = README.md \
            hardware/MBus_USB.pdf \
            hardware/MBus_USB.txt
 
-SUBDIRS		= mbus bin
+SUBDIRS		= mbus
 ACLOCAL		= aclocal -I .
 ACLOCAL_AMFLAGS = -Werror -I m4
